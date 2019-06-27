@@ -37,6 +37,6 @@ test is passed.
 - перейти по ссылке https://travis-ci.com/otus-devops-2019-05/sinhro1202_infra/builds/117108965
 
 ## PR checklist
- - [*] Set label play-travis to commit
+ - [*] Set label play-travis to commits
  - [ ] Выставил label c номером домашнего задания
  - [ ] Выставил label с темой домашнего задания

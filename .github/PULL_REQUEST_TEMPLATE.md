@@ -1,4 +1,4 @@
-# Выполнено ДЗ №2
+# Выполнено ДЗ № 5
 
  - [*] Основное ДЗ
  - [ ] Задание со *
@@ -6,37 +6,52 @@
 ## В процессе сделано:
  - Пункт 1
 
-Created branch play-travis, created dir .github and uploaded PULL_REQUEST_TEMPLATE.md to this dir.
+ bastion_IP = 34.77.106.225
 
-Commited PULL_REQUEST_TEMPLATE.md and pushed to github repo.
+ someinternalhost_IP = 10.132.0.3
+
+ - For one command connection from console to to someinternalhost through bastion host, you should use jump ssh option with key -J
+
+     In my opinion it was
+
+ ~~~
+ alex@xubuntu:~/practice-git$ ssh -J alex@34.77.106.225 10.132.0.3
+ Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-1034-gcp x86_64)
+
+ Last login: Fri Jun 28 08:34:57 2019 from 10.132.0.2
+ alex@someinternalhost:~$
+ ~~~
 
  - Пункт 2
-Accomplished integration between slack and travis with encryption.
 
-Commited and pushed .travis.yml to github repo sinhro1202_infra.
+ ### FOR using alias someinternalhost to connect by ssh on your local machine.
 
+ - You need edit ssh_config and add Host section. My section Host is:
 
-  Paragraph 3
+ ~~~
+ Host someinternalhost
+     HostName 10.132.0.3
+     User alex
+     ProxyJump 34.77.106.225
+ ~~~
+ -  Пункт 3
 
-Running test by travis.
+ ### Activate SSL certificate on Printul vpn service.
 
-Repaired failed test function in file test.py in line 6.
-self.assertEqual(1 + 1, 1)
-AssertionError: 2 != 1
+ For LetsEncrypt cert you need DNS name for host. I used my own domain and add A record to name zone
 
-chenged to 
-self.assertEqual(1 + 1, 2)
+ ~~~
+ bastion.izbadeluxe.ru.  A (адрес Internet v4) 34.77.106.225
 
-test is passed.
-
+ Now you can open page bastion.izbadeluxe.ru with correct SSL certificate.
+ ~~~
 ## Как запустить проект:
-# - Например, запустить команду X в директории Y
+ - Например, запустить команду X в директории Y
 
 ## Как проверить работоспособность:
- 
-- перейти по ссылке https://travis-ci.com/otus-devops-2019-05/sinhro1202_infra/builds/117108965
+ - Например, перейти по ссылке https://bastion.izbadeluxe.ru
+
 
 ## PR checklist
- - [*8] Set label play-travis to commits
- - [ ] Выставил label c номером домашнего задания
- - [ ] Выставил label с темой домашнего задания
+ - [*] Выставил label с номером домашнего задания
+ - [*] Выставил label с темой домашнего задания

@@ -1,4 +1,58 @@
-# Выполнено ДЗ № 5
+# Выполнено ДЗ № 4
+
+ - [*] Основное ДЗ
+ - [*] Задание со *
+
+## В процессе сделано:
+ ### Пункт 1
+
+ testapp_IP = 35.207.157.64
+
+ testapp_port = 9292
+
+ - APP is installed and working
+
+
+ ### Пункт 2
+
+ Writed all scripts in homeworks include additional jobs.
+
+ - install_mongodb.sh
+
+ - install_ruby.sh
+
+ - deploy.sh
+
+ - firewall.sh
+
+ - redditinst.sh
+
+ - startup_script1.sh
+
+ - old scripts moved to VPN directory
+
+### Пункт 3
+
+ Script redditinst.sh create vm instance in GCP and run startup_script1.sh for install APP mongo and PUMA.
+
+Script firewall.sh make rule default-puma-server
+ in GCP.
+
+## Как запустить проект:
+
+ - Run script redditinst.sh
+
+## Как проверить работоспособность:
+ - Например, перейти по ссылке http://35.207.157.64:9292
+
+
+## PR checklist
+ - [*] Выставил label с номером домашнего задания
+ - [*] Выставил label с темой домашнего задания
+
+===============================================================
+
+# Выполнено ДЗ № 3
 
  - [*] Основное ДЗ
  - [ ] Задание со *

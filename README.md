@@ -1,6 +1,35 @@
 # sinhro1202_infra repository student Alexey M.
 
-## Homework #5
+## Homework 4
+
+testapp_IP = 35.207.157.64
+
+testapp_port = 9292
+
+### Writed scripts
+
+
+- install_mongodb.sh
+
+- install_ruby.sh
+
+- deploy.sh
+
+- firewall.sh
+
+- redditinst.sh
+
+- startup_script1.sh
+
+- old scripts moved to VPN directory
+
+Accomplished main and all additional jobs in homeworks.
+
+
+=======================
+
+
+## Homework #3
 
 bastion_IP = 34.77.106.225
 

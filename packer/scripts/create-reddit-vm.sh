@@ -2,7 +2,7 @@
 
 #VARIABLES
 
-    ID_PROJECT=infra-245107
+    ID_PROJECT=*****
 
     INST_NAME=reddit-hw
 

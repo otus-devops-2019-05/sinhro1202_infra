@@ -1,5 +1,20 @@
 # sinhro1202_infra repository student Alexey M.
 
+## Homework 5
+
+### Main task
+- Created variables.json and added to .gitignore
+- Created variables-example.json and crated variables-ADD.examples.json with additional parameters
+- Created immutable.json
+
+### Tasks with *
+
+- Created immutable.json all additional scrtipts stored in packer/scripts directory
+- Created create-redditvm.sh script
+This scripts use gcloud console to create new instance with our image reddit-base with applications.
+
+
+
 ## Homework 4
 
 testapp_IP = 35.207.157.64

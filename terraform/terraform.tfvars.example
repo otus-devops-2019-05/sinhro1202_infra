@@ -1,0 +1,7 @@
+project = "***"
+public_key_path = "~/.ssh/user.pub"
+disk_image = "reddit-base"
+private_key_path = "~/.ssh/user"
+zone = "europe-west1"
+
+

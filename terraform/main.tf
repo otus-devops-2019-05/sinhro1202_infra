@@ -31,6 +31,9 @@ resource "google_compute_instance" "app" {
   }
   metadata {
     ssh-keys = "alex:${file(var.public_key_path)}"
+    ssh-keys = "appuser:${file(var.public_key_path)}"
+    ssh-keys = "appuser1:${file(var.public_key_path)}"
+    ssh-keys = "appuser2:${file(var.public_key_path)}"
   }
   tags = ["reddit-app"]
 
@@ -52,7 +55,7 @@ resource "google_compute_instance" "app" {
 
     agent = false
 
-    private_key = "alex:${file(var.private_key_path)}"
+    private_key = "${file(var.private_key_path)}"
   }
   provisioner "file" {
     source = "files/puma.service"

@@ -1,7 +1,7 @@
 project = "***"
-public_key_path = "~/.ssh/user.pub"
+public_key_path = "~/.ssh/alex.pub"
 disk_image = "reddit-base"
-private_key_path = "~/.ssh/user"
-zone = "europe-west1"
+private_key_path = "~/.ssh/alex"
+zone = "europe-west1-b"
 
 

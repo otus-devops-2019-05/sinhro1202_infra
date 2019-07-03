@@ -21,5 +21,13 @@ variable disk_image {
 }
 
 variable zone {
-  description = "Default zone"
+  default = "europe-west1-b"
+}
+
+variable "private_key_path" {
+  description = " private key path"
+}
+
+variable "app_port" {
+  default = "9292"
 }

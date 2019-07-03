@@ -1,3 +1,32 @@
+# Выполнено ДЗ № 5
+
+ - [*] Основное ДЗ
+ - [*] Задание со *
+
+## В процессе сделано:
+ ### Пункт 1
+
+- Created variables.json and added to .gitignore
+- Created variables-example.json and crated variables-ADD.examples.json with additional parameters
+- Created immutable.json
+
+ - All scripts checks and working.
+
+
+ ### Пункт 2  
+
+ ####Writed all scripts in homeworks include additional jobs.
+
+- Created immutable.json all additional scrtipts stored in packer/scripts directory
+- Created create-redditvm.sh script
+- This scripts use gcloud console to create new instance with our image reddit-base with applications.
+
+## PR checklist
+ - [*] Выставил label с номером домашнего задания
+ - [*] Выставил label с темой домашнего задания
+
+=================================================
+
 # Выполнено ДЗ № 4
 
  - [*] Основное ДЗ

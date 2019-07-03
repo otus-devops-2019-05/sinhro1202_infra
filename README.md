@@ -1,5 +1,6 @@
 # sinhro1202_infra repository student Alexey M.
 
+
 ## Homework 6 TERRAFORM-1
 
 - Main Tasks
@@ -17,8 +18,6 @@
 - Added code for ssh key for user appuser
 - Added code for ssh keys for users appuser1, 2.
 
-===========================================
-
 ## Homework 5
 
 ### Main task
@@ -31,6 +30,7 @@
 - Created immutable.json all additional scrtipts stored in packer/scripts directory
 - Created create-redditvm.sh script
 This scripts use gcloud console to create new instance with our image reddit-base with applications.
+
 
 ## Homework 4
 

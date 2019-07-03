@@ -27,7 +27,3 @@ variable zone {
 variable "private_key_path" {
   description = " private key path"
 }
-
-variable "app_port" {
-  default = "9292"
-}

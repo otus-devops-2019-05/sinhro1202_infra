@@ -12,22 +12,4 @@ Ansible видит, что заданный каталог reddir не суще�
 
 ### Writed scripts
 
-
-- install_mongodb.sh
-
-- install_ruby.sh
-
-- deploy.sh
-
-- firewall.sh
-
-- redditinst.sh
-
-- startup_script1.sh
-
-- old scripts moved to VPN directory
-
-Accomplished main and all additional jobs in homeworks.
-
-
 =======================

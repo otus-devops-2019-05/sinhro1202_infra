@@ -9,4 +9,5 @@
 *.tfvars
 
 .terraform/
+*.retry
 

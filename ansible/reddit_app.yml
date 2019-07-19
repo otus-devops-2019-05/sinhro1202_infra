@@ -1,11 +1,19 @@
 ---
-  - name: Configure hosts & deploy application
+- name: Configure hosts & deploy application
   hosts: all
-    tasks:
+  become: true
+  vars:
+    mongo_bind_ip: 0.0.0.0 # <-- Переменная задается в блоке vars
+    
+  tasks:
     - name: Change mongo config file
+      template:
+        src: templates/mongod.conf.j2
+        dest: /etc/mongod.conf
+        mode: 0644
+        tags: db-tag
+        notify: restart mongod
+  handlers: # ADD handlers and tasks
+  - name: restart mongod
     become: true
-     template:
-      src: templates/mongod.conf.j2
-      dest: /etc/mongod.conf
-      mode: 0644
-      tags: db-tag # <-- Список тэгов для задачи
+    service: name=mongod state=restarted

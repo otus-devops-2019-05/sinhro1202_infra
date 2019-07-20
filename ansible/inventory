@@ -1,4 +1,8 @@
 [app]
+<<<<<<< Updated upstream
 appserver ansible_host=35.210.217.127
+=======
+appserver ansible_host=35.217.127
+>>>>>>> Stashed changes
 [db]
 dbserver ansible_host=35.206.153.195

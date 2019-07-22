@@ -5,11 +5,6 @@ variables.json
 *.tfstate.*.backup
 *.tfstate.backup
 *.tfvars
-<<<<<<< HEAD
-
 .terraform/
 *.retry
 
-=======
-.terraform/
->>>>>>> 720d8fe4b7efe51d8a2e37a77821c41d40caed26

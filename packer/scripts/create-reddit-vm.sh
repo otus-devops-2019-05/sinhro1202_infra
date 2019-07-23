@@ -18,7 +18,7 @@
 
     DEFZONE=europe-west3-b
 
-    STARTUP_SCRIPT=startup_script1.sh
+    STARTUP_SCRIPT=startup_script.sh
 
 # Create instance
 

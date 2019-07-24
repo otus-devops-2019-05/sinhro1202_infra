@@ -7,4 +7,3 @@ variables.json
 *.tfvars
 .terraform/
 *.retry
-

@@ -1,5 +1,5 @@
 {  
-	"builders":[  
+	"builders": [  
 	   {  
 		  "type": "googlecompute",
 		  "project_id": "{{ user `project_id` }}",
@@ -11,7 +11,7 @@
 		  "zone": "{{ user `zone` }}"
 	   }
 	],
-	"provisioners":[  
+	"provisioners": [  
 	   {  
 		  "type": "shell",
 		  "script": "scripts/install_mongodb.sh",

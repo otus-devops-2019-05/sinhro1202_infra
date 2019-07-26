@@ -1,5 +1,29 @@
 # sinhro1202_infra repository student Alexey M.
 
+#Homework 9 ansible-2
+
+- Выполненно основное задание.
+
+- Сделан сценарии reddit2.app Для deploy.
+- Выполнена проверка сценария.
+- Созданы несколько плейбуков
+- app.yml
+- db.yml
+- deploy.yml
+
+- переименованы
+- reddit_app.yml ➡ reddit_app_one_play.yml
+- reddit_app2.yml ➡ reddit_app_multiple_plays.yml
+
+- Выполнен terraform destroy
+
+  и terraform apply
+
+- проверена работа плейбуков
+
+- $ ansible-playbook site.yml --check
+- $ ansible-playbook site.yml
+
 
 ## Homework 6 TERRAFORM-1
 

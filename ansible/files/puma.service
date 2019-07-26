@@ -1,0 +1,27 @@
+[Unit]
+
+Description=Puma HTTP Server
+
+After=network.target
+
+
+
+[Service]
+
+Type=simple
+
+EnvironmentFile=/home/alex/db_config
+
+User=alex
+
+WorkingDirectory=/home/alex/reddit
+
+ExecStart=/bin/bash -lc 'puma'
+
+Restart=always
+
+
+
+[Install]
+
+WantedBy=multi-user.target

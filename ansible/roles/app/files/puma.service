@@ -4,8 +4,6 @@ Description=Puma HTTP Server
 
 After=network.target
 
-
-
 [Service]
 
 Type=simple
@@ -19,8 +17,6 @@ WorkingDirectory=/home/alex/reddit
 ExecStart=/bin/bash -lc 'puma'
 
 Restart=always
-
-
 
 [Install]
 

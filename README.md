@@ -1,5 +1,5 @@
 # sinhro1202_infra repository student Alexey M.
-#hOMEWORK ANSIBLE-3
+#Homework ANSIBLE-3
 
 - Выполненно основное задание.
 

@@ -1,4 +1,14 @@
 # sinhro1202_infra repository student Alexey M.
+#hOMEWORK ANSIBLE-3
+
+- Выполненно основное задание.
+
+- Добавлена конфигурация в terraform для открытия 80 порта.
+- Опробована работа с anible-vault.
+
+- Задания со * не выполнялись.
+
+
 
 #Homework 9 ansible-2
 

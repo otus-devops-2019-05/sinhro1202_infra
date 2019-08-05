@@ -4,23 +4,15 @@ Description=Puma HTTP Server
 
 After=network.target
 
-
-
 [Service]
 
 # Foreground process (do not use --daemon in ExecStart or config.rb)
 
 Type=simple
 
-
-
 WorkingDirectory=/home/userapp/reddit
 
-
-
 ExecStart=/usr/local/bin/pumactl start &
-
-
 
 [Install]
 

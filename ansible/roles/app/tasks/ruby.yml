@@ -7,7 +7,7 @@
 #    groups: sudo
 #    append: yes
 
-- name: Install ruby and rubygems and required packages
+- name: "Install ruby and rubygems and required packages"
   apt: "name={{ item }} state=present"
   with_items:
     - ruby-full

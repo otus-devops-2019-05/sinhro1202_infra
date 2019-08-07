@@ -5,9 +5,9 @@
 
 - include: install_mongo.yml
 - include: config_mongo.yml
-#- name: Change mongo config file
-#  template:
-#    src: templates/mongod.conf.j2
-#    dest: /etc/mongod.conf
-#    mode: 0644
-#  notify: restart mongod
+- name: Change mongo config file
+  template:
+    src: templates/mongod.conf.j2
+    dest: /etc/mongod.conf
+    mode: 0644
+  notify: restart mongod

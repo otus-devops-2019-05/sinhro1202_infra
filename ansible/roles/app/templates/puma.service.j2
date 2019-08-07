@@ -8,11 +8,11 @@ After=network.target
 
 Type=simple
 
-EnvironmentFile=/home/alex/db_config
+EnvironmentFile=/home/{{ deploy_user }}/db_config
 
-User=alex
+User={{ deploy_user }}
 
-WorkingDirectory=/home/alex/reddit
+WorkingDirectory=/home/{{ deploy_user }}/reddit
 
 ExecStart=/bin/bash -lc 'puma'
 

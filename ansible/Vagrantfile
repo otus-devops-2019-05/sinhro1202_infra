@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
       "app:vars" => { "db_host" => "10.10.10.10"}
       }
       ansible.extra_vars = {
-        "deploy_user" => "alex"
+        "deploy_user" => "alex",
         "nginx_sites" => {
           "default" => [
             "listen 80",
@@ -39,6 +39,6 @@ Vagrant.configure("2") do |config|
           ]
         }
       }
-      end
+    end
   end
 end
